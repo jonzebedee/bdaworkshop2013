@@ -1,4 +1,4 @@
-
+# asdf
 generate.disease.test.data <- function(n = 1000000, prior.prob = 0.001, hit.rate = 0.99, false.alarm = 0.05) {
     infected <- rbinom(n, 1, prior.prob);
 
